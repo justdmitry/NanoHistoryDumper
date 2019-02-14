@@ -4,7 +4,7 @@ Reads all account histrory from node via RPC and print it on screen.
 
 ## Features
 
-* Auto-detecting of nano/banano nodes, auto rai/ban conversion to raw
+* Auto-detecting of nano/banano nodes, auto nano/ban conversion from raw
 * Cross-platform (install [.NET Core SDK](https://dotnet.microsoft.com/download) for your OS)
 
 
@@ -18,5 +18,5 @@ Reads all account histrory from node via RPC and print it on screen.
 
 ## How to use
 
-1. Edit `appsettings.json`: put correct ip and port of your node RPC
+1. Edit `appsettings.json`: put correct ip and port of your node RPC (if not default `127.0.0.1:7072`)
 3. Run `dotnet run <account>` from console
